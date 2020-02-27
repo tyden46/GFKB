@@ -7,9 +7,9 @@ BacteriaStats.R <br><br>
 
 #### And 4 supplementary files:
 GFKB2.csv - a csv file containing a list of organisms and associated metadata <br><br>
-microbiome_data.csv - a csv file containing the relative abundance results of an epilepsy/ketogenic diet study<br><br>
+microbiome_data.csv - a csv file containing the relative abundance results of an epilepsy/ketogenic diet study (a subset of the data from Human_Keto_Microbiome_Revised.csv)<br><br>
 prokaryotes.csv - a csv file containing a list of prokaryotes and associated metadata (including genome size)<br><br>
-Human_Keto_Microbiome_Revised.csv<br><br><br>
+Human_Keto_Microbiome_Revised.csv - A full report of the results of the keto microbiome study<br><br><br>
 
 ## Process
 Sheet 2 from Human_Keto_Microbiome_Revised.csv was saved as a separate file, microbiome_data.csv <br><br>
