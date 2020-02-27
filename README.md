@@ -3,7 +3,7 @@ Scripts used to generate v4.0 of the Gut Feeling KnowledgeBase
 
 ## Content
 #### This repository contains one R script:
-"BacteriaStats.R" <br><br>
+BacteriaStats.R <br><br>
 
 #### And 4 supplementary files:
 GFKB2.csv - a csv file containing a list of organisms and associated metadata <br><br>
