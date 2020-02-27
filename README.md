@@ -12,7 +12,7 @@ prokaryotes.csv - a csv file containing a list of prokaryotes and associated met
 Human_Keto_Microbiome_Revised.csv - A full report of the results of the keto microbiome study<br><br><br>
 
 ## Process
-Sheet 2 from Human_Keto_Microbiome_Revised.csv was saved as a separate file, microbiome_data.csv <br><br>
+Sheet 2 from Human_Keto_Microbiome_Revised.csv was saved as a separate file, microbiome_data.csv (already included in this repository)<br><br>
 <br>
 RStudio was used to run BacteriaStats.R<br><br>
 Comments in BacteriaStats.R give more detail regarding the process but, in broad terms, the following were performed:<br>
