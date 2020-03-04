@@ -34,4 +34,17 @@ Comments in BacteriaStats.R give more detail regarding the process but, in broad
 ## Notes
 Four of the organisms we have represented in our table are semi-reduntant (UP000001360_AP010889 is semi-reduntant to UP000001360_CP001095 and UP000000439_AE014295 is semi-redundant to UP000000439_LN824140) <br><br>
 By semi-reduntant, it is meant that in each case a single uniprot ID matches to two GenBank Accession numbers <br><br>
-As a consequence, the Epilepsy tab has two rows which contain NA values. These two rows correspond to GenBank numbers which appear in our Organisms sheet but, due to their redundancy with other organisms in that list, do not map to a GenBank accession number associated with our epilepsy data.
+As a consequence, the Epilepsy tab has two rows which contain NA values. These two rows correspond to GenBank numbers which appear in our Organisms sheet but, due to their redundancy with other organisms in that list, do not map to a GenBank accession number associated with our epilepsy data.<br><br>
+The square brackets around taxonomy and organism name were deleted for the following organisms:
+* CP001104 Eubacterium eligens ATCC 27750 chromosome, complete genome
+* CP001107 Eubacterium rectale ATCC 33656 chromosome, complete genome
+* CP002109 Clostridium saccharolyticum WM1 chromosome, complete genome
+* CP022464 Clostridium bolteae strain ATCC BAA-613 chromosome complete genome
+* LN679998 Clostridium sordellii genome assembly ATCC9714_, chromosome : 1
+* FP929037 Clostridium saccharolyticum-like K10 draft genome
+* FP929042 Eubacterium rectale DSM 17629 draft genome
+* FP929043 Eubacterium rectale M104/1 draft genome
+* FP929044 Eubacterium siraeum 70/3 draft genome
+* FP929059 Eubacterium siraeum V10Sc8a draft genome
+
+
