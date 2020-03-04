@@ -1,6 +1,14 @@
 # GFKB
 Scripts used to generate v4.0 of the Gut Feeling KnowledgeBase
 
+## Changes from v3.0
+GFKB v4.0 is now divided into two tabs. The first tab is a "master list" of organisms with their associated metadata. The second tab contains various statistical metrics associated with relative abundance derived from a microbiome study of the ketogenic diet on patients with epilepsy<br><br>
+
+GFKB v4.0 has a new key used as a unique identifier for each organism. The key or "Unique ID" is a concatenation of the UniProt ID and GenBank Accession number associated with an organism.<br><br>
+
+GFKB v4.0 now includes genome size (in megabases) for all organisms <br><br>
+
+
 ## Content
 #### This repository contains one R script:
 BacteriaStats.R <br><br>
