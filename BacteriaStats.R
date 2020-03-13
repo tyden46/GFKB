@@ -11,6 +11,12 @@ GFKB = read.csv("GFKB2.csv")
 bacData = read.csv("microbiome_data.csv")
 genomeSizeList=read.csv("prokaryotes.csv")
 
+#Add k12 abundance to p12b and then remove
+k12Row=bacData[which(bacData$Organism_Meta_Data=="str_K12_substr_DH10B_complete_genome"), ]
+p12bRow=bacData[which(bacData$Organism_Meta_Data=="P12b_complete_genome"), ]
+p12bRow[,4:56]=p12bRow[,4:56]+k12Row[,4:56]
+bacData[which(bacData$Organism_Meta_Data=="P12b_complete_genome"), ]=p12bRow
+bacData=bacData[-which(bacData$Organism_Meta_Data=="str_K12_substr_DH10B_complete_genome"), ]
 #Fetch the genome sizes we need and add to GFKB
 overlap=intersect(GFKB$Assembly.ID..UP.matched., genomeSizeList$Assembly)
 index=match(overlap,as.character(genomeSizeList$Assembly))
