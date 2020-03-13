@@ -8,6 +8,7 @@ GFKB v4.0 has a new key used as a unique identifier for each organism. The key o
 
 GFKB v4.0 now includes genome size (in megabases) for all organisms <br><br>
 
+GFKB v4.0 has removed E. coli k12, a lab strain, and reassigned its abundance values and associated metrics to Escherichia coli H386/ Escherichia coli P12b <br><br>
 
 ## Content
 #### This repository contains one R script:
